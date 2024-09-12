@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(190, 194, 194);
+  }
+  
+  .titulo {
+    font-size: 90px;
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    color: #ebd758;
+    text-shadow: -1px 0 #414d68, 0 1px #414d68, 1px 0 #414d68, 0 -1px #414d68,
+      -2px 2px 0 #414d68, 2px 2px 0 #414d68, 1px 1px #414d68, 2px 2px #414d68,
+      3px 3px #414d68, 4px 4px #414d68, 5px 5px #414d68, 6px 6px #414d68,
+      7px 7px #414d68, 8px 8px #414d68, 9px 9px #414d68;
+  }
+  
+  div span {
+    font-size: 50px;
+    color: silver;
+  }
+  
+  .header {
+    color: white;
+    background-color: rgb(121, 118, 118);
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+  }
+  
+  .footer {
+    color: white;
+    background-color: rgb(121, 118, 118);
+    font-size: 20px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer address span {
+    margin-left: 20px;
+  }
+  
+  h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    font-family: arial;
+    text-decoration: none;
+  }
+  a:hover {
+    color: black;
+    font-family: arial;
+    text-decoration: none;
+  }
+  
+  .cuerpo {
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formulario {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .formularioTexto {
+    font-size: 30px;
+    margin: 10px;
+  }
+  
+  .formularioBox {
+    font-size: 25px;
+    width: 80%;
+    height: 40px;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    height: 200px;
+    width: 80%;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  button:active {
+    background-color: #1e7e34;
+  }
+  
+  .confirma{
+    color: green;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
